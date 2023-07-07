@@ -377,3 +377,13 @@ outline:none;
 #myModal img.richang.m-b-40{
   margin-bottom: 40px;
 }
+#myModal img.newdong{
+ transform: scale(0.3);
+}
+#myModal .gif-out{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

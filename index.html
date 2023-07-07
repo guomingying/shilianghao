@@ -318,7 +318,7 @@
 			["image/deling_01.jpg","image/deling_02.jpg","image/deling_03.jpg"],
 			["image/langbo_01.jpg","image/langbo_02.jpg","image/langbo_03.jpg"],
 			["image/youyong_01.jpg","image/youyong_02.jpg"],
-			["image/Nee-How/1.jpg","image/Nee-How/1.jpg","image/Nee-How/3.jpg"],
+			["image/new_dong.gif","image/Nee-How/1.jpg","image/Nee-How/1.jpg","image/Nee-How/3.jpg"],
 			["image/richang_01.jpg","image/richang_02.jpg","image/richang_03.gif","image/richang_04.gif","image/richang_05.gif","image/richang_06.gif","image/richang_07.gif","image/richang_08.jpg"]
 		]
 
@@ -338,6 +338,12 @@
 						imgHtml += `<img class="richang m-b-40" src= "${imgArr[th][i]}">`;
 					} else {
 						imgHtml += `<img class="richang" src= "${imgArr[th][i]}">`;
+					}
+				}else if (imgArr[th][i].indexOf('new') !== -1) {
+					if (imgArr[th][i].indexOf('gif') !== -1) {
+						imgHtml += `<div class="gif-out"><img class="newdong  m-b-40" src= "${imgArr[th][i]}"></div>`;
+					} else {
+						imgHtml += `<img class="newdong" src= "${imgArr[th][i]}">`;
 					}
 				} else {
 					imgHtml += `<img src= "${imgArr[th][i]}">`;

@@ -388,3 +388,17 @@ outline:none;
     align-items: center;
     justify-content: center;
 }
+#myModal .cleanup_box{
+  position: relative;
+}
+#myModal .cleanup6{
+  position: absolute;
+}
+#myModal img.cleanup_6{
+  width: 228px;
+  height: 478px;
+  border-radius: 24px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+ }

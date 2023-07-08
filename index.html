@@ -20,29 +20,29 @@
 		/*font-family:hone !important;*/
 	}
 	.flex-border{
-		position: fixed;width: calc(100 - 10px);height: calc(100%);border: solid 5px rgba(232,244,9,1);top: 0;left: 0;right: 0;z-index: -1;
+		position: fixed;width: calc(100 - 10px);height: calc(100%);border: solid 5px  #006ef4e6;top: 0;left: 0;right: 0;z-index: -1;
 	}
     
-	.flex-bottom-border{position: fixed;width: calc(100 - 10px);height: 5px;background: rgba(232,244,9,1);bottom: 0;left: 0;right: 0;z-index: 3;}
+	.flex-bottom-border{position: fixed;width: calc(100 - 10px);height: 5px;background:  #006ef4e6;bottom: 0;left: 0;right: 0;z-index: 3;}
 	.reveal-modal-bg { position: fixed; height: 100%; width: 100%; z-index: 1000; display: none; top: 0; left: 0; background:rgba(00, 00, 00, 0.6) }
 			.reveal-modal { visibility: hidden;top: 20px !important; left: 50%; margin-left: -500px; width: 1000px; position: fixed; z-index: 1001;  -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;background-color: #FFF; height: calc(100vh - 40px);overflow: auto;	background#FFF;	}
 				.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
 				.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}		 .close-reveal-modal { font-size: 22px; line-height: 0.5; position: absolute; top: 8px; right: 11px; color: #333; text-shadow: 0 -1px 1px rbga(0,0,0,.6); font-weight: bold; cursor: pointer; 		}
     /* .fiexBg{    width: calc(100% - 64px);
     height: calc(100vh);
-    background: url(image/bg.jpg) no-repeat;
+    background: url(image/bg.png) no-repeat;
     background-size: 100%;
     margin: 0 auto;
     margin-top: 60px;
     background-attachment: fixed;
     overflow: hidden;} */
-	.fiexBg{   width: calc(100% - 64px); height:100vh;background: url(image/bg.jpg) no-repeat center; background-size: 100%; margin: 0 auto;margin-top: 30px;overflow: hidden;}
-	.navBox{width: 100%;height: 60px;box-sizing:border-box;background: #fff;border: solid 5px rgba(232,244,9,1);border-bottom: none;text-align: center;}
+	.fiexBg{   width: calc(100% - 64px); height:100vh;background: url(image/bg.png) no-repeat center; background-size: 100%; margin: 0 auto;margin-top: 30px;overflow: hidden;}
+	.navBox{width: 100%;height: 60px;box-sizing:border-box;background: #fff;border: solid 5px  #006ef4e6;border-bottom: none;text-align: center;}
 	.fixedNav{position: fixed;top: 0px;z-index: 999;padding: 0 29px;box-sizing: border-box;}
 
 	.logo{float: left;padding-top: 8px;}
 	.navList{text-align: center;position: relative;}
-	.navList::after{width: 120px;height: 31px;content: "";background: url(image/yarou_zhang.png) no-repeat;background-size: 100% 100%;position: absolute;left: 0px;top:14px;}
+	.navList::after{width: 120px;height: 31px;content: "";background: url(image/shilianghao.png) no-repeat;background-size: 100% 100%;position: absolute;left: 0px;top:14px;}
 	.navList li{display: inline-block;font-size:16px;font-family:PingFang-SC-Medium,PingFang-SC;font-weight:500;color:rgba(17,17,17,1); line-height: 60px;padding: 0 20px;}
 	.navList li.active{}
 	.me{width: 1296px;margin: 0px auto;padding-top: 64px;padding-bottom: 111px;font-family:htwo !important;}
@@ -58,7 +58,7 @@
 	.skillImg{display: block;margin: 0px auto;margin-top: 116px;width: 1230px;}
 
 	.article{width: 89px; text-align: center;font-size:14px;font-family:PingFang-SC-Medium,PingFang-SC;font-weight:500;color:rgba(16,16,16,1);line-height:20px;letter-spacing:4px; position: relative; margin: 0 auto;}
-	.article::before{content: "";position: absolute;width:83px;height:2px;background:rgba(232,244,9,1);left: 0; bottom: 0;}
+	.article::before{content: "";position: absolute;width:83px;height:2px;background: #006ef4e6;left: 0; bottom: 0;}
 	.label{text-align: center;margin: 78px auto 70px;}
 	.label li{line-height: 44px;background: #EBEBEB;border-radius: 3px;display: inline-block;font-size: 22px;color: #757575;padding: 0px 15px;margin: 0px 10px;}
 	.worksList{width: 1300px;margin: 0px auto;font-size: 0px;margin-bottom: 107px; padding-top: 39px;}
@@ -70,9 +70,6 @@
 	.activeBox{top:0px !important;}
 	.activeBox .wz{animation:List 1s;}
 	.activeBox .prev{animation:Left 1s;}
-    @media (max-width: 980px){
-        .fiexBg{    width: 1296px;height: 776px;background: url(image/bg.jpg) no-repeat center; background-size: 100%; margin: 0 auto;margin-top: 60px;overflow: hidden;}
-    }
     @keyframes List{
     	from {transform: translate(0px, 60px);opacity: 0;}
     	to {transform: translate(0px, 0px);opacity: 1;}
@@ -89,15 +86,24 @@
 	.contect{width: 100%;}
 	.contectIntro{width: 724px;margin: 0px auto;font-size: 24px;color:#8B8B8B;text-align: center;margin-top: 80px;    line-height: 34px;}
 	.contectItems{margin-top: 70px;width: 1000px;margin: 0 auto;}
-	.contectItems-work{width: 100%;display: flex; margin-top: 65px;}
+	.contectItems-work{width: 100%;display: flex; align-items: center;margin-top: 65px;}
 	.contectItems-work img{width: 300px; height: 200px; margin-right: 40px;}
 	.contectItems-work .right{flex: 1;}
 	.contectItems-work .right .time{width: 141px;height: 14px;}
 	.contectItems-work .right .time img{width: 100%;height: 14px;}
 	#close{ width:40px; height: 40px;position: fixed; top: 0px;z-index: 999999;top: 20px;cursor: pointer;
 		right: calc((100% - 1080px)/2); display: none;background: url(image/icon_close.png) no-repeat;background-size: 100% 100%;}
-		.loding{width: calc(100% - 10px);height: calc(100% - 10px);position: fixed;top: 0px;background: #fff;    z-index: 99999;display: flex;justify-content: center; align-items: center;border: solid 5px rgba(232,244,9,1);}
+		.loding{width: calc(100% - 10px);height: calc(100% - 10px);position: fixed;top: 0px;background: #fff;    z-index: 99999;display: flex;justify-content: center; align-items: center;border: solid 5px  #006ef4e6;}
 	/*.scale{transform: scale(0.8);}*/
+	.loding img{
+		transform: scale(0.3);
+	}
+	@media (max-width: 980px){
+        .fiexBg{    width: 1296px;height: 776px;background: url(image/bg.png) no-repeat center; background-size: 100%; margin: 0 auto;margin-top: 60px;overflow: hidden;}
+		#close{
+			width:80px; height: 80px;right: calc((100% - 1160px)/2);
+		}
+	}
 	</style>
 </head>
 <body>
@@ -123,7 +129,7 @@
 	<div class="me scale one">
 		<h2>关于我</h2>
 		<p class="article" style="margin-bottom:70px;">@我的介绍</p>
-		<div class="avator"><img src="image/avator.jpg" alt=""></div>
+		<div class="avator"><img src="image/avator.png" alt=""></div>
 		<div class="intro">
 			<p>你好，<br> 我是 UI设计 | 史良浩</p>
 			<p>从事互联网设计5年，擅长移动端、pc端、H5、后台设计并且熟悉产品设计流程。善于沟通，爱好撸猫</p>
@@ -146,7 +152,7 @@
 		<p class="article">@项目介绍</p>
 
 		<div class="worksList">
-			<div class="worksItem">
+			<!-- <div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/jiemian.png" width="618" height="413"  alt="">
 				</a>
@@ -164,10 +170,10 @@
 					<p class="name">摩尔金融网页</p>
 					<p class="content">界面·财联社：摩尔金融官网页面</p>
 				</div>
-			</div>
+			</div> -->
 
 
-			<div class="worksItem">
+			<!-- <div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/moeryunying.png" width="618" height="413"  alt="">
 				</a>
@@ -193,8 +199,8 @@
 					<p class="name">朗播网</p>
 					<p class="content">官方网站、网页</p>
 				</div>
-			</div>
-			<div class="worksItem">
+			</div> -->
+			<!-- <div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 				<img src="image/youyong.png" width="618" height="413"  alt="">
 				</a>
@@ -202,14 +208,14 @@
 					<p class="name">有用分期</p>
 					<p class="content">品牌手机数码产品分期购买</p>
 				</div>
-			</div>
+			</div> -->
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 				<img src="image/Nee-How/Nee-How.jpg" width="618" height="413"  alt="">
 				</a>
 				<div class="jieshao">
-					<p class="name">nee how</p>
-					<p class="content">nee how简介</p>
+					<p class="name">NEE HOW</p>
+					<p class="content">电商APP</p>
 				</div>
 			</div>
 			<div class="worksItem">
@@ -236,46 +242,18 @@
 
 		<div class="contectItems">
 			<div class="contectItems-work">
-				<img src="image/logo_jiemian.png" alt="">
+				<img src="image/logo_xlhd.png" alt="">
 				<div class="right">
-					<p class="time">
-						<img src="image/time_jiemian.png" alt="">
-					</p>
-					<p class="name">界面新闻</p>
-					<p class="content">界面是最受中国中产阶级欢迎的新闻及商业社交平台，旗下拥有精品新闻业务界面新闻、专业投资资讯平台摩尔金融及中国最大独立设计师电商网站尤物。</p>
+					<p class="name">心力互动</p>
+					<p class="content">北京心力互动科技有限公司主要研发海内外清理工具、计步软件、答题类软件，帮助用户全面检测运动数据、清理手机空间并提供适合的运动训练计划，助您生活更健康。</p>
 				</div>
 			</div>
 
 			<div class="contectItems-work">
-				<img src="image/logo_deling.png" alt="">
+				<img src="image/logo_nee how.png" alt="">
 				<div class="right">
-					<p class="time">
-						<img src="image/time_deling.png" alt="">
-					</p>
-					<p class="name">德灵科技</p>
-					<p class="content">专注企业移动社交营销平台和移动数据管理平台。开发了跨四屏移动监测优化系统、社会化营销平台以及数字导视系统等多个系统，以及覆盖商业地产、旅游地产、大型零售和电商等行业的解决方案。</p>
-				</div>
-			</div>
-
-			<div class="contectItems-work">
-				<img src="image/logo_langbo.png" alt="">
-				<div class="right">
-					<p class="time">
-						<img src="image/time_langbo.png" alt="">
-					</p>
-					<p class="name">朗播网</p>
-					<p class="content">专注托福、雅思、GRE、GMAT、新 SAT、ACT 等出国留学考试以及考研英语、四六级等国内英语考试，为学习者提供课程、练习、测评、问答、社区等一站式服务。</p>
-				</div>
-			</div>
-
-			<div class="contectItems-work">
-				<img src="image/logo_nee how.jpg" alt="">
-				<div class="right">
-					<p class="time">
-						<img src="image/time_meili.png" alt="">
-					</p>
-					<p class="name">nee how</p>
-					<p class="content">nee how是一款关于 nee how平台。</p>
+					<p class="name">NEE HOW</p>
+					<p class="content">北京中弘海盛科技有限公司是一家专注于跨国电商与运营的创业型企业。</p>
 				</div>
 			</div>
 		</div>
@@ -289,7 +267,7 @@
 		<p class="article">@联系方式</p>
 
 		<div class="ditu">
-			<img src="image/ditu.jpg" alt="">
+			<img src="image/ditu.png" alt="">
 		</div>
 
 		<p class="message">* 以上作品均为本人所参与的实际项目以及原创作品</p>

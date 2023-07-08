@@ -156,11 +156,11 @@ outline:none;
 .contectItems-work .right .name::before{
   content: "";
   width:30px;
-  height:1px;
+  height:2px;
   background:rgba(16,16,16,1);
   position: absolute;
   left: 0;
-  bottom: -6px;
+  bottom: -10px;
 }
 .contectItems-work .right .content{
   font-size:14px;
@@ -284,7 +284,7 @@ outline:none;
   width:calc(100% - 36px);
   content:"";
   margin-bottom:-2px;
-  border-bottom:rgba(232,244,7,1) 4px solid;
+  border-bottom:#006ef4e6 4px solid;
   bottom:50%;
 }
 .navList li:after{
@@ -295,7 +295,7 @@ outline:none;
   width:calc(100% - 36px);
   content:"";
   margin-bottom:-2px;
-  border-bottom:rgba(232,244,7,1) 4px solid;
+  border-bottom:#006ef4e6 4px solid;
   -webkit-transform-origin:right top;
   -moz-transform-origin:right top;
   -o-transform-origin:right top;

@@ -291,7 +291,7 @@
 
 		var imgArr = [
 	    ["image/cleanup/1.png","image/cleanup/2.png","image/cleanup/3.png","image/cleanup/4.png","image/cleanup/5.png","image/cleanup/6.png","image/cleanup/7.png","image/cleanup/8.png","image/cleanup/9.png","image/cleanup/10.png","image/cleanup/11.png"],
-			["image/new_dong.gif","image/Nee-How/1.jpg","image/Nee-How/1.jpg","image/Nee-How/3.jpg"],
+			["image/Nee-How/1.jpg","image/Nee-How/1.jpg","image/Nee-How/3.jpg"],
 			["image/richang_01.jpg","image/richang_02.jpg","image/richang_03.gif","image/richang_04.gif","image/richang_05.gif","image/richang_06.gif","image/richang_07.gif","image/richang_08.jpg"]
 		]
 
@@ -313,16 +313,26 @@
 						imgHtml += `<img class="richang" src= "${imgArr[th][i]}">`;
 					}
 				}
-				else if (imgArr[th][i].indexOf('new') !== -1) {
-					if (imgArr[th][i].indexOf('gif') !== -1) {
-						imgHtml += `<div class="gif-out"><img class="newdong  m-b-40" src= "${imgArr[th][i]}"></div>`;
-					} else {
-						imgHtml += `<img class="newdong" src= "${imgArr[th][i]}">`;
-					}
+				else if (imgArr[th][i].indexOf('cleanup/4') !== -1) {
+					imgHtml += `<div  class="cleanup_box4"><img  class="cleanup4" src= "${imgArr[th][i]}">
+									<img  class="cleanup_4" src= "image/cleanup/4saomiao.gif">
+									<img  class="cleanup_41" src= "image/cleanup/4qingli.gif"></div>`;
+				}
+				else if (imgArr[th][i].indexOf('cleanup/5') !== -1) {
+					imgHtml += `<div  class="cleanup_box5"><img  class="cleanup5" src= "${imgArr[th][i]}">
+									<img  class="cleanup_5" src= "image/cleanup/5shendu.gif"></div>`;
 				}
 				else if (imgArr[th][i].indexOf('cleanup/6') !== -1) {
-					imgHtml += `<div  class="cleanup_box"><img  class="cleanup6" src= "${imgArr[th][i]}">
-									<img  class="cleanup_6" src= "image/cleanup/jiasu.gif"></div>`;
+					imgHtml += `<div  class="cleanup_box6"><img  class="cleanup6" src= "${imgArr[th][i]}">
+									<img  class="cleanup_6" src= "image/cleanup/6jiasu.gif"></div>`;
+				}
+				else if (imgArr[th][i].indexOf('cleanup/7') !== -1) {
+					imgHtml += `<div  class="cleanup_box7"><img  class="cleanup6" src= "${imgArr[th][i]}">
+									<img  class="cleanup_7" src= "image/cleanup/7CPU.gif"></div>`;
+				}
+				else if (imgArr[th][i].indexOf('cleanup/8') !== -1) {
+					imgHtml += `<div  class="cleanup_box8"><img  class="cleanup8" src= "${imgArr[th][i]}">
+									<img  class="cleanup_8" src= "image/cleanup/8wifi.gif"></div>`;
 				}
 				 else {
 					imgHtml += `<img src= "${imgArr[th][i]}">`;

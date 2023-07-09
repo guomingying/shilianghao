@@ -388,11 +388,8 @@ outline:none;
     align-items: center;
     justify-content: center;
 }
-#myModal .cleanup_box{
+#myModal .cleanup_box6{
   position: relative;
-}
-#myModal .cleanup6{
-  position: absolute;
 }
 #myModal img.cleanup_6{
   width: 228px;
@@ -401,4 +398,56 @@ outline:none;
   position: absolute;
   top: 80px;
   left: 80px;
+ }
+#myModal .cleanup_box5{
+  position: relative;
+}
+#myModal img.cleanup_5{
+  width: 248px;
+  height: 526px;
+  border-radius: 18px;
+  position: absolute;
+  top: 176px;
+  left: 94px;
+ }
+#myModal .cleanup_box4{
+  position: relative;
+}
+#myModal img.cleanup_4{
+  width: 198px;
+  height: 428px;
+  border-radius: 16px;
+  position: absolute;
+  top: 191px;
+  left: 94px;
+ }
+#myModal img.cleanup_41{
+  width: 198px;
+  height: 428px;
+  border-radius: 16px;
+  position: absolute;
+  top: 191px;
+  left: 402px;
+ }
+ #myModal .cleanup_box7{
+  position: relative;
+}
+#myModal img.cleanup_7{
+  width: 228px;
+  height: 478px;
+  border-radius: 18px;
+  position: absolute;
+  top: 42px;
+  right: 86px;
+ }
+ #myModal .cleanup_box8{
+  position: relative;
+}
+#myModal img.cleanup_8{
+  width: 198px;
+  height: 408px;
+  border-radius: 18px;
+  position: absolute;
+  top: 159px;
+  left: 92px;
  }

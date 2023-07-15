@@ -143,7 +143,7 @@
 	@media (max-width: 980px){
         .fiexBg{    width: 1296px;height: 776px;background: url(image/bg.png) no-repeat center; background-size: 100%; margin: 0 auto;margin-top: 60px;overflow: hidden;}
 		#close{
-			width:80px; height: 80px;right: calc((100% - 1160px)/2);
+			width:80px; height: 80px;right: calc((100% - 1160px)/2);top: 220px!important;
 		}
 		.contect,.works{	
 			width: 1296px;
@@ -156,6 +156,12 @@
 		}
 		.project::before{
 			left: 60px;
+		}
+		.avator{
+			margin-top: 40px;
+		}
+		.reveal-modal{
+			top: 220px!important;
 		}
 	}
 	</style>
@@ -359,7 +365,7 @@
 		// 	// $(this).find('.ItemBox').removeClass('activeBox')
 		// })
 
-		$('.worksItem').click(function(){
+		$('.worksItem img').click(function(){
 			var th = $(this).index();
 			var imgHtml = "";
 			for(var i = 0; i<imgArr[th].length; i++){

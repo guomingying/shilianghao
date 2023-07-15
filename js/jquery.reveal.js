@@ -25,7 +25,7 @@
             var defaults = {  
                 animation: 'fadeAndPop', //fade, fadeAndPop, none
                 animationspeed: 300, //how fast animtions are
-                closeonbackgroundclick: false, //if you click background will modal close?
+                closeonbackgroundclick: true, //if you click background will modal close?
                 dismissmodalclass: 'close-reveal-modal' //the class of a button or element that will close an open modal
             }; 
             
@@ -129,6 +129,8 @@
                     modalBG.css({"cursor":"pointer"})
                     modalBG.bind('click.modalEvent', function () {
                       modal.trigger('reveal:close')
+                      $('#close').hide();
+                      $('body').css("overflow","inherit")
                     });
                 }
                 $('body').keyup(function(e) {

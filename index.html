@@ -197,15 +197,6 @@
 					<p class="content">电商APP</p>
 				</div>
 			</div>
-			<div class="worksItem">
-				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
-				<img src="image/richang.png" width="618" height="413"  alt="">
-				</a>
-				<div class="jieshao">
-					<p class="name">日常练习</p>
-					<p class="content">日常练习、个人总结</p>
-				</div>
-			</div>
 
 		</div>
 
@@ -274,7 +265,6 @@
 			["image/DeviceInfo/1.png","image/DeviceInfo/2.png","image/DeviceInfo/3.png","image/DeviceInfo/4.png","image/DeviceInfo/5.png"],
 			["image/happydog/1.png","image/happydog/2.png","image/happydog/3.png","image/happydog/4.png"],
 			["image/Nee-How/1.png","image/Nee-How/2.png","image/Nee-How/3.png"],
-			["image/richang_01.jpg","image/richang_02.jpg","image/richang_03.gif","image/richang_04.gif","image/richang_05.gif","image/richang_06.gif","image/richang_07.gif","image/richang_08.jpg"]
 		]
 
 		// $('.worksItem').hover(function(){
@@ -288,14 +278,7 @@
 			var th = $(this).index();
 			var imgHtml = "";
 			for(var i = 0; i<imgArr[th].length; i++){
-				if (imgArr[th][i].indexOf('richang') !== -1) {
-					if (imgArr[th][i].indexOf('gif') !== -1) {
-						imgHtml += `<img class="richang m-b-40" src= "${imgArr[th][i]}">`;
-					} else {
-						imgHtml += `<img class="richang" src= "${imgArr[th][i]}">`;
-					}
-				}
-				else if (imgArr[th][i].indexOf('cleanup/4') !== -1) {
+				if (imgArr[th][i].indexOf('cleanup/4') !== -1) {
 					imgHtml += `<div  class="cleanup_box4"><img  class="cleanup4" src= "${imgArr[th][i]}">
 									<img  class="cleanup_4" src= "image/cleanup/4saomiao.gif">
 									<img  class="cleanup_41" src= "image/cleanup/4qingli.gif"></div>`;

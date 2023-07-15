@@ -370,13 +370,6 @@ outline:none;
 #myModal img{
   width: 100%;
 }
-#myModal img.richang{
-  width: calc(100% - 80px);
-  margin-left: 40px;
-}
-#myModal img.richang.m-b-40{
-  margin-bottom: 40px;
-}
 #myModal img.newdong{
  transform: scale(0.3);
  border-radius: 80px;

@@ -57,7 +57,7 @@
 	.Title{padding: 0px 15px;font-size: 44px;color: #fff;text-align: center;position: relative;padding-top: 140px;    margin-bottom: 16px;}
 	.skillImg{display: block;margin: 0px auto;margin-top: 116px;width: 1230px;}
 
-	.article{width: 89px; text-align: center;font-size:14px;font-family:PingFang-SC-Medium,PingFang-SC;font-weight:500;color:rgba(16,16,16,1);line-height:20px;letter-spacing:4px; position: relative; margin: 0 auto;}
+	.article{width: 89px; text-align: center;font-size:14px;font-family:PingFang-SC-Medium,PingFang-SC;font-weight:500;color:rgba(16,16,16,1);line-height:64px;letter-spacing:4px; position: relative; margin: 0 auto;}
 	.article::before{content: "";position: absolute;width:83px;height:2px;background: #006ef4e6;left: 0; bottom: 0;}
 	.label{text-align: center;margin: 78px auto 70px;}
 	.label li{line-height: 44px;background: #EBEBEB;border-radius: 3px;display: inline-block;font-size: 22px;color: #757575;padding: 0px 15px;margin: 0px 10px;}
@@ -98,10 +98,64 @@
 	.loding img{
 		transform: scale(0.3);
 	}
+	#arktitle {
+		display: none;
+		width: 200px;
+			position: absolute;
+			margin-left: -15px;
+            font-size: 18px;
+            font-weight: bold;
+            background: linear-gradient(to bottom,blue,#3200ff);
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: blink 2s linear infinite;
+            -webkit-animation: blink 2s linear infinite;
+            -moz-animation: blink 2s linear infinite;
+            -ms-animation: blink 2s linear infinite;
+            -o-animation: blink 2s linear infinite;
+            text-align: center;
+        }
+        @keyframes blink{
+            0%{opacity: 1;}
+            50%{opacity: 0.5;}
+            100%{opacity: 0.8;}
+        }
+        @-webkit-keyframes blink {
+            0% { opacity: 1; }
+            50%{opacity: 0.5;}
+            100%{opacity: 0.8;}
+        }
+        @-moz-keyframes blink {
+            0% { opacity: 1; }
+            50%{opacity: 0.5;}
+            100%{opacity: 0.8;}
+        }
+        @-ms-keyframes blink {
+            0% { opacity: 1; }
+            50%{opacity: 0.5;}
+            100%{opacity: 0.8;}
+        }
+        @-o-keyframes blink {
+            0% { opacity: 1; }
+            50%{opacity: 0.5;}
+            100%{opacity: 0.8;}
+        }
 	@media (max-width: 980px){
         .fiexBg{    width: 1296px;height: 776px;background: url(image/bg.png) no-repeat center; background-size: 100%; margin: 0 auto;margin-top: 60px;overflow: hidden;}
 		#close{
 			width:80px; height: 80px;right: calc((100% - 1160px)/2);
+		}
+		.contect,.works{	
+			width: 1296px;
+		}
+		#arktitle {
+			display:inline-block;
+		}
+		.project{
+			left: -75px;
+		}
+		.project::before{
+			left: 60px;
 		}
 	}
 	</style>
@@ -132,7 +186,7 @@
 		<div class="avator"><img src="image/avator.png" alt=""></div>
 		<div class="intro">
 			<p>你好，<br> 我是 UI设计 | 史良浩</p>
-			<p>从事互联网设计5年，擅长移动端、pc端、H5、后台设计并且熟悉产品设计流程。善于沟通，爱好撸猫</p>
+			<p>从事互联网设计5年，擅长移动端、pc端、H5并且熟悉产品设计流程。善于沟通，爱好篮球。</p>
 			<ul>
 				<li>利用互联网平台把握用户需求，总结想法，喜发现新的设计趋势</li>
 				<li>关注用户体验，做事积极有热情，注重团队合作，富有责任感</li>
@@ -148,8 +202,9 @@
 
 	<div class="works scale two">
 		<div class="boxTitle ">项目展示</div>
-
-		<p class="article">@项目介绍</p>
+		<p class="article project">@项目介绍
+			<span id="arktitle">【请点击进入】</span>
+		</p>
 
 		<div class="worksList">
 			<div class="worksItem">

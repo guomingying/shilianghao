@@ -120,7 +120,6 @@ outline:none;
   margin-bottom: 40px;
 }
 .intro ul li{
-  padding-left: 29px;
   box-sizing: border-box;
   position: relative;
   font-size:14px;
@@ -131,8 +130,8 @@ outline:none;
   letter-spacing:2px;
   padding-bottom: 25px;
 }
-.intro ul li::after{
-  content: "";
+/* .intro ul li::after{ */
+  /* content: "";
   width: 9px;
   height: 9px;
   position: absolute;
@@ -140,7 +139,7 @@ outline:none;
   top: 4px;
   background: url('../image/icon_heart.png') no-repeat;
   background-size: 100% 100%;
-}
+} */
 .intro ul li:last-child{
   padding-bottom: 0;
 }

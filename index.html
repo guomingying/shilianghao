@@ -190,6 +190,15 @@
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
+					<img src="image/quick/JKfengmian.png" width="618" height="413"  alt="">
+				</a>
+				<div class="jieshao">
+					<p class="name">极快省电王</p>
+					<p class="content">手机电池管理软件（智能省电）</p>
+				</div>
+			</div>
+			<div class="worksItem">
+				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/happydog/fengmian.png" width="618" height="413"  alt="">
 				</a>
 				<div class="jieshao">
@@ -273,6 +282,7 @@
 			["image/happystep/1.png","image/happystep/2.png","image/happystep/3.png","image/happystep/4.png","image/happystep/5.png","image/happystep/6.png","image/happystep/7.png","image/happystep/8.png"],
 			["image/DeviceInfo/1.png","image/DeviceInfo/2.png","image/DeviceInfo/3.png","image/DeviceInfo/4.png","image/DeviceInfo/5.png"],
 			["image/AIAssistant/1.png","image/AIAssistant/2.png","image/AIAssistant/3.png","image/AIAssistant/4.png","image/AIAssistant/5.png","image/AIAssistant/6.png","image/AIAssistant/7.png","image/AIAssistant/8.png","image/AIAssistant/9.png"],
+			["image/quick/1.png","image/quick/2.png","image/quick/3.png","image/quick/4.png","image/quick/5.png","image/quick/6.png","image/quick/7.png","image/quick/8.png"],
 			["image/happydog/1.png","image/happydog/2.png","image/happydog/3.png","image/happydog/4.png"],
 			["image/Nee-How/1.png","image/Nee-How/2.png","image/Nee-How/3.png"],
 		]
@@ -322,6 +332,22 @@
 					imgHtml += `<div  class="happy_step6"><img  class="happystep6" src= "${imgArr[th][i]}">
 									<img  class="shouji6" src= "image/happystep/shouji.png">
 									<img  class="happystep_6" src= "image/happystep/6chengyu.gif"></div>`;
+				}
+				else if (imgArr[th][i].indexOf('quick/2') !== -1) {
+					imgHtml += `<div  class="quick2"><img src= "${imgArr[th][i]}">
+									<img  class="quick_2" src= "image/quick/2.gif"></div>`;
+				}
+				else if (imgArr[th][i].indexOf('quick/3') !== -1) {
+					imgHtml += `<div  class="quick3"><img src= "${imgArr[th][i]}">
+									<img  class="quick_3" src= "image/quick/3.gif"></div>`;
+				}
+				else if (imgArr[th][i].indexOf('quick/4') !== -1) {
+					imgHtml += `<div  class="quick4"><img src= "${imgArr[th][i]}">
+									<img  class="quick_4" src= "image/quick/4.gif"></div>`;
+				}
+				else if (imgArr[th][i].indexOf('quick/5') !== -1) {
+					imgHtml += `<div  class="quick5"><img src= "${imgArr[th][i]}">
+									<img  class="quick_5" src= "image/quick/5.gif"></div>`;
 				}
 				 else {
 					imgHtml += `<img src= "${imgArr[th][i]}">`;

@@ -497,3 +497,48 @@ outline:none;
   left: 430px;
   z-index: 1;
  }
+ #myModal .quick2{
+  position: relative;
+}
+#myModal img.quick_2{
+  width: 258px;
+  height: 557px;
+  border-radius: 26px;
+  position: absolute;
+  top: 122px;
+  left: 155px;
+ }
+ 
+ #myModal .quick3{
+  position: relative;
+}
+#myModal img.quick_3{
+  width: 258px;
+  height: 557px;
+  border-radius: 26px;
+  position: absolute;
+  top: 82px;
+  right: 169px;
+ }
+ #myModal .quick4{
+  position: relative;
+}
+#myModal img.quick_4{
+  width: 260px;
+  height: 557px;
+  border-radius: 26px;
+  position: absolute;
+  top: 82px;
+  left: 157px;
+ }
+ #myModal .quick5{
+  position: relative;
+}
+#myModal img.quick_5{
+  width: 260px;
+  height: 557px;
+  border-radius: 26px;
+  position: absolute;
+  top: 82px;
+  right: 168px;
+ }

@@ -451,3 +451,56 @@ outline:none;
   top: 159px;
   left: 92px;
  }
+ #myModal .happy_dog1{
+  position: relative;
+}
+#myModal img.happydog_1{
+  width: 192px;
+  height: 403px;
+  border-radius: 26px;
+  position: absolute;
+  top: 54px;
+  right: 318px;
+ }
+ #myModal .happy_step4{
+  position: relative;
+}
+#myModal img.shouji4{
+  width: 240px;
+    height: 492px;
+    border-radius: 26px;
+    position: absolute;
+    top: 143px;
+    right: 79px;
+    z-index: 2;
+ }
+#myModal img.happystep_4{
+  width: 224px;
+  height: 480px;
+  border-radius: 33px;
+  position: absolute;
+  top: 149px;
+  right: 87px;
+  z-index: 1;
+ }
+ #myModal .happy_step6{
+  position: relative;
+}
+#myModal img.shouji6{
+  width: 240px;
+  height: 492px;
+  border-radius: 26px;
+  position: absolute;
+  top: 113px;
+  left: 424px;
+  z-index: 2;
+ }
+#myModal img.happystep_6{
+  width: 224px;
+  height: 480px;
+  border-radius: 33px;
+  position: absolute;
+  top: 119px;
+  left: 430px;
+  z-index: 1;
+ }

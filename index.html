@@ -109,7 +109,7 @@
 			margin-left: -15px;
             font-size: 18px;
             font-weight: bold;
-            background: linear-gradient(to bottom,blue,#3200ff);
+            background: linear-gradient(to bottom,blue,#0600ff);
             -webkit-background-clip: text;
             color: transparent;
             animation: blink 2s linear infinite;
@@ -160,7 +160,7 @@
 			left: -75px;
 		}
 		.project::before{
-			left: 60px;
+			width: 250px;
 		}
 		.reveal-modal{
 			top: 220px!important;
@@ -378,7 +378,6 @@
 		// })
 
 		$('.worksItem').click(function(){
-			console.log($(this),$(this).index())
 			var th = $(this).index();
 			var imgHtml = "";
 			for(var i = 0; i<imgArr[th].length; i++){

@@ -104,20 +104,17 @@
 	}
 	#arktitle {
 		display: none;
-		width: 200px;
-			position: absolute;
-			margin-left: -15px;
-            font-size: 18px;
-            font-weight: bold;
-            background: linear-gradient(to bottom,blue,#0600ff);
-            -webkit-background-clip: text;
-            color: transparent;
-            animation: blink 2s linear infinite;
-            -webkit-animation: blink 2s linear infinite;
-            -moz-animation: blink 2s linear infinite;
-            -ms-animation: blink 2s linear infinite;
-            -o-animation: blink 2s linear infinite;
-            text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		background: linear-gradient(to bottom,blue,#0600ff);
+		-webkit-background-clip: text;
+		color: transparent;
+		animation: blink 2s linear infinite;
+		-webkit-animation: blink 2s linear infinite;
+		-moz-animation: blink 2s linear infinite;
+		-ms-animation: blink 2s linear infinite;
+		-o-animation: blink 2s linear infinite;
+		text-align: center;
         }
         @keyframes blink{
             0%{opacity: 1;}
@@ -157,7 +154,8 @@
 			display:inline-block;
 		}
 		.project{
-			left: -75px;
+			display: flex;
+			width: 250px;
 		}
 		.project::before{
 			width: 250px;

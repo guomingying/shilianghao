@@ -49,6 +49,10 @@
 	.me h2{	width: 100%;text-align: center;font-size:66px;font-family:PingFang-SC-Medium,PingFang-SC;font-weight:500;color:rgba(16,16,16,1);line-height:92px;padding-bottom: 5px;letter-spacing:3px;}
 	.me h3{width: 100%; text-align: center;font-size:14px;font-family:PingFang-SC-Medium,PingFang-SC;font-weight:500;color:rgba(16,16,16,1);line-height:20px;letter-spacing:4px;padding-bottom: 70px;}
 	.avator {float: left;width: 50%;}
+	.flex-avator{
+		display: flex;
+		align-items: center;
+	}
 	.intro{width: calc(50% - 2px);float: left;box-sizing: border-box;}
 	.intro h1{font-size: 44px;color: #3E3F3F;text-align: center;position: relative;top: -15px;}
 	.meSkills{width: 100%;height: 684px;background: #F7F7F7;}
@@ -158,9 +162,6 @@
 		.project::before{
 			left: 60px;
 		}
-		.avator{
-			margin-top: 40px;
-		}
 		.reveal-modal{
 			top: 220px!important;
 		}
@@ -198,15 +199,17 @@
 	<div class="me scale one">
 		<h2>关于我</h2>
 		<p class="article" style="margin-bottom:70px;">@我的介绍</p>
-		<div class="avator"><img src="image/avator.png" alt=""></div>
-		<div class="intro">
-			<p>你好，<br> 我是 UI设计 | 史良浩</p>
-			<p>从事互联网设计5年，擅长移动端、pc端、H5并且熟悉产品设计流程。善于沟通，爱好篮球。</p>
-			<ul>
-				<li>利用互联网平台把握用户需求，总结想法，喜发现新的设计趋势</li>
-				<li>关注用户体验，做事积极有热情，注重团队合作，富有责任感</li>
-				<li>熟练使用Sketch、PS、AI、AE、Principle等软件</li>
-			</ul>
+		<div class="flex-avator">
+			<div class="avator"><img src="image/avator.png" alt=""></div>
+			<div class="intro">
+				<p>你好，<br> 我是 UI设计 | 史良浩</p>
+				<p>从事互联网设计5年，擅长移动端、pc端、H5并且熟悉产品设计流程。善于沟通，爱好篮球。</p>
+				<ul>
+					<li>利用互联网平台把握用户需求，总结想法，喜发现新的设计趋势</li>
+					<li>关注用户体验，做事积极有热情，注重团队合作，富有责任感</li>
+					<li>熟练使用Sketch、PS、AI、AE、Principle等软件</li>
+				</ul>
+			</div>
 		</div>
 
 		<div style="clear:both;"></div>
@@ -224,75 +227,75 @@
 		<div class="worksList">
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
-				<img src="image/cleanup/clean_it_up.png" width="618" height="413"  alt="">
+					<img src="image/cleanup/clean_it_up.png" width="618" height="413"  alt="">	
+					<div class="jieshao">
+						<p class="name">Clean It Up</p>
+						<p class="content">海外清理产品</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">Clean It Up</p>
-					<p class="content">海外清理产品</p>
-				</div>
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/happystep/HLfengmian.png" width="618" height="413"  alt="">
+					<div class="jieshao">
+						<p class="name">欢乐计步宝</p>
+						<p class="content">一款运动打卡健身的走路赚钱软件</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">欢乐计步宝</p>
-					<p class="content">一款运动打卡健身的走路赚钱软件</p>
-				</div>
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/DeviceInfo/DIfengmian.png" width="618" height="413"  alt="">
+					<div class="jieshao">
+						<p class="name">Device Info+</p>
+						<p class="content">提供手机设备详细信息产品</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">Device Info+</p>
-					<p class="content">提供手机设备详细信息产品</p>
-				</div>
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/AIAssistant/AIfengmian.png" width="618" height="413"  alt="">
+					<div class="jieshao">
+						<p class="name">AI Assistant</p>
+						<p class="content">人工智能聊天机器人</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">AI Assistant</p>
-					<p class="content">人工智能聊天机器人</p>
-				</div>
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/quick/JKfengmian.png" width="618" height="413"  alt="">
+					<div class="jieshao">
+						<p class="name">极快省电王</p>
+						<p class="content">手机电池管理软件（智能省电）</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">极快省电王</p>
-					<p class="content">手机电池管理软件（智能省电）</p>
-				</div>
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
 					<img src="image/question/QMfengmian.png" width="618" height="413"  alt="">
+					<div class="jieshao">
+						<p class="name">全民来对答</p>
+						<p class="content">一款益智答题闯关游戏软件</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">全民来对答</p>
-					<p class="content">一款益智答题闯关游戏软件</p>
-				</div>
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
-					<img src="image/happydog/fengmian.png" width="618" height="413"  alt="">
+					<img src="image/happydog/fengmian.png" width="618" height="413"  alt="">	
+					<div class="jieshao">
+						<p class="name">欢乐招财犬</p>
+						<p class="content">一款模拟养成赚钱游戏软件</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">欢乐招财犬</p>
-					<p class="content">一款模拟养成赚钱游戏软件</p>
-				</div>
 			</div>
 			<div class="worksItem">
 				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
-				<img src="image/Nee-How/Nee-How.png" width="618" height="413"  alt="">
+					<img src="image/Nee-How/Nee-How.png" width="618" height="413"  alt="">
+					<div class="jieshao">
+						<p class="name">NEE HOW</p>
+						<p class="content">电商APP</p>
+					</div>
 				</a>
-				<div class="jieshao">
-					<p class="name">NEE HOW</p>
-					<p class="content">电商APP</p>
-				</div>
 			</div>
 
 		</div>
@@ -374,7 +377,8 @@
 		// 	// $(this).find('.ItemBox').removeClass('activeBox')
 		// })
 
-		$('.worksItem img').click(function(){
+		$('.worksItem').click(function(){
+			console.log($(this),$(this).index())
 			var th = $(this).index();
 			var imgHtml = "";
 			for(var i = 0; i<imgArr[th].length; i++){

@@ -293,7 +293,15 @@
 					</div>
 				</a>
 			</div>
-
+			<div class="worksItem">
+				<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
+					<img src="image/zhixin/zhixin.svg" width="618" height="413"  alt="">
+					<div class="jieshao">
+						<p class="name">执信资本</p>
+						<p class="content">一款专业从事股权投资的私募基金管理网站</p>
+					</div>
+				</a>
+			</div>
 		</div>
 
 	</div>
@@ -364,6 +372,7 @@
 			["image/question/1.png","image/question/2.png","image/question/3.png","image/question/4.png","image/question/5.png","image/question/6.png","image/question/7.png","image/question/8.png","image/question/9.png"],
 			["image/happydog/1.png","image/happydog/2.png","image/happydog/3.png","image/happydog/4.png"],
 			["image/Nee-How/1.png","image/Nee-How/2.png","image/Nee-How/3.png"],
+			["image/zhixin/1.svg","image/zhixin/2.svg","image/zhixin/3.svg","image/zhixin/4.svg","image/zhixin/5.svg","image/zhixin/6.svg","image/zhixin/7.svg","image/zhixin/8.svg","image/zhixin/9.svg","image/zhixin/10.svg","image/zhixin/11.svg"],
 		]
 
 		// $('.worksItem').hover(function(){
@@ -427,6 +436,9 @@
 				else if (imgArr[th][i].indexOf('quick/5') !== -1) {
 					imgHtml += `<div  class="quick5"><img src= "${imgArr[th][i]}">
 									<img  class="quick_5" src= "image/quick/5.gif"></div>`;
+				}
+				else  if (imgArr[th][i].indexOf('zhixin') !== -1) {
+					imgHtml += `<img class="zhixin-mb" src= "${imgArr[th][i]}">`;
 				}
 				 else {
 					imgHtml += `<img src= "${imgArr[th][i]}">`;

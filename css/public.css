@@ -544,3 +544,6 @@ outline:none;
  #myModal img.zhixin-mb{
   margin-bottom: 20px;
  }
+ #myModal img.zhixin-mb:last-child{
+  margin-bottom: 0;
+ }
